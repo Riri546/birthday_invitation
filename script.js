@@ -9,7 +9,8 @@ Vue.component('birthday', {
             content__address: 'Жду вас 24.09.23г. в 15 часов на улице Котовского 121.',
             content__withMyself: 'С собой иметь хорошее настроение и парочку тостов в мою честь. Отказы не принимаются.',
             img_one: 'img/img1.svg',
-            img_two: 'img/img2.svg'
+            img_two: 'img/img2.svg',
+            alt: 'flower'
         }
     },
 
@@ -24,8 +25,8 @@ Vue.component('birthday', {
         </article>
     </div>
     <article class="content__img">
-        <img class="photo" :src="img_one" alt="flower">
-        <img class="photo" src="" alt="flower">
+        <img class="photo" :src="img_one" :alt="alt">
+        <img class="photo" :src="img_two" :alt="alt">
     </article>
 </section>`,
 });
