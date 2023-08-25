@@ -68,7 +68,7 @@ a {
 @media (max-width: 767px) {
   .header .content__text, .header .content__address, .header .content__withMyself {
     padding-bottom: 20px;
-    max-width: 300px;
+    max-width: 280px;
     color: #000;
     text-align: center;
     font-family: Cormorant Garamond;
@@ -110,6 +110,7 @@ a {
     line-height: normal;
   }
   .photo {
+    padding-top: 50px;
     max-width: 120px;
   }
 }/*# sourceMappingURL=style.css.map */
