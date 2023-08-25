@@ -65,10 +65,9 @@ a {
 }
 
 /* Стили для среднего телефона */
-@media (max-width: 767px) {
+@media (max-width: 1024px) {
   .header .content__text, .header .content__address, .header .content__withMyself {
     padding-bottom: 20px;
-    max-width: 280px;
     color: #000;
     text-align: center;
     font-family: Cormorant Garamond;
@@ -84,16 +83,16 @@ a {
   }
   .header {
     margin: 40px;
-    padding-top: 70px;
+    padding-top: 40px;
     border: 2px solid #FF9094;
     background: #FFF;
   }
   .header__title {
-    max-width: 300px;
+    max-width: 280px;
     color: #000;
     text-align: center;
     font-family: Tangerine;
-    font-size: 50px;
+    font-size: 45px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
