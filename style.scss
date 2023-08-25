@@ -15,7 +15,7 @@ a {
 }
 
 .header {
-    margin: 40px;
+    margin: 60px;
     padding-top: 52px;
 
     border: 2px solid #FF9094;
@@ -25,7 +25,7 @@ a {
         color: #000;
         text-align: center;
         font-family: Tangerine;
-        font-size: 48px;
+        font-size: 70px;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
@@ -36,7 +36,7 @@ a {
         color: #000;
         text-align: center;
         font-family: Cormorant Garamond;
-        font-size: 24px;
+        font-size: 50px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
@@ -44,10 +44,12 @@ a {
 
     .content {
         &__text {
+            padding-bottom: 70px;
+            width: 500px;
             color: #000;
             text-align: center;
             font-family: Cormorant Garamond;
-            font-size: 14px;
+            font-size: 32px;
             font-style: normal;
             font-weight: 400;
             line-height: normal;
