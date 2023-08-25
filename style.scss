@@ -15,9 +15,11 @@ a {
 }
 
 .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin: 60px;
     padding-top: 52px;
-
     border: 2px solid #FF9094;
     background: #FFF;
 
@@ -32,6 +34,7 @@ a {
     }
 
     &__text {
+        max-width: 500px;
         padding-bottom: 52px;
         color: #000;
         text-align: center;
@@ -45,11 +48,34 @@ a {
     .content {
         &__text {
             padding-bottom: 70px;
-            width: 500px;
+            max-width: 500px;
             color: #000;
             text-align: center;
             font-family: Cormorant Garamond;
             font-size: 32px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+
+        &__address {
+            padding-bottom: 70px;
+            max-width: 500px;
+            color: #000;
+            text-align: center;
+            font-family: Cormorant Garamond;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+
+        &__withMyself {
+            max-width: 500px;
+            color: #000;
+            text-align: center;
+            font-family: Cormorant Garamond;
+            font-size: 30px;
             font-style: normal;
             font-weight: 400;
             line-height: normal;
