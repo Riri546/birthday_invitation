@@ -13,6 +13,12 @@ a {
   text-decoration: none;
 }
 
+.header {
+  margin: 40px;
+  padding-top: 52px;
+  border: 2px solid #FF9094;
+  background: #FFF;
+}
 .header__title {
   color: #000;
   text-align: center;
@@ -23,10 +29,20 @@ a {
   line-height: normal;
 }
 .header__text {
+  padding-bottom: 52px;
   color: #000;
   text-align: center;
   font-family: Cormorant Garamond;
   font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.header .content__text {
+  color: #000;
+  text-align: center;
+  font-family: Cormorant Garamond;
+  font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
