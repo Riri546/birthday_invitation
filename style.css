@@ -68,7 +68,7 @@ a {
   line-height: normal;
 }
 .header .content__withMyself {
-  padding-bottom: 200px;
+  padding-bottom: 80px;
   max-width: 500px;
   color: #000;
   text-align: center;
@@ -77,4 +77,9 @@ a {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+.header .content__img {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }/*# sourceMappingURL=style.css.map */

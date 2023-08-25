@@ -75,7 +75,7 @@ a {
         }
 
         &__withMyself {
-            padding-bottom: 200px;
+            padding-bottom: 80px;
             max-width: 500px;
             color: #000;
             text-align: center;
@@ -84,6 +84,12 @@ a {
             font-style: normal;
             font-weight: 400;
             line-height: normal;
+        }
+
+        &__img {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
         }
     }
 }
