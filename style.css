@@ -1,3 +1,15 @@
+.header .content__withMyself, .header .content__address, .header .content__text {
+  padding-bottom: 70px;
+  max-width: 500px;
+  color: #000;
+  text-align: center;
+  font-family: Cormorant Garamond;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -29,7 +41,7 @@ a {
   color: #000;
   text-align: center;
   font-family: Tangerine;
-  font-size: 70px;
+  font-size: 150px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -41,39 +53,6 @@ a {
   text-align: center;
   font-family: Cormorant Garamond;
   font-size: 50px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
-.header .content__text {
-  padding-bottom: 70px;
-  max-width: 500px;
-  color: #000;
-  text-align: center;
-  font-family: Cormorant Garamond;
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
-.header .content__address {
-  padding-bottom: 70px;
-  max-width: 500px;
-  color: #000;
-  text-align: center;
-  font-family: Cormorant Garamond;
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-}
-.header .content__withMyself {
-  padding-bottom: 80px;
-  max-width: 500px;
-  color: #000;
-  text-align: center;
-  font-family: Cormorant Garamond;
-  font-size: 30px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
