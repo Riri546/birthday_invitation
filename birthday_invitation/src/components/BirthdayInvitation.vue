@@ -11,8 +11,8 @@
                 </article>
             </div>
             <article class="content__img">
-                <img class="photo" src="#" :alt="alt">
-                <img class="photo" src="#" :alt="alt">
+                <img class="photo" src="../assets/img/img1.svg" :alt="alt">
+                <img class="photo" src="../assets/img/img2.svg" :alt="alt">
             </article>
         </section>`
     </div>
@@ -29,8 +29,8 @@ export default {
             content__text: 'Дорогие друзья! Приглашаю вас на торжество, посвященное моему дню рождению. Хочу в этот день видеть рядом самых близких и родных людей.Задор и веселье гарантирую!',
             content__address: 'Жду вас 24.09.23г. в 15 часов на улице Котовского 121.',
             content__withMyself: 'С собой иметь хорошее настроение и парочку тостов в мою честь. Отказы не принимаются.',
-            img_one: 'img/img1.svg',
-            img_two: 'img/img2.svg',
+            img_one: '../assets/img/img1.svg',
+            img_two: '../assets/img/img2.svg',
             alt: 'flower'
         };
     },
