@@ -31,61 +31,6 @@ a {
   text-decoration: none;
 }
 
-.header .content__withMyself,
-.header .content__address,
-.header .content__text {
-  padding-bottom: 70px;
-  max-width: 500px;
-  color: #000;
-  text-align: center;
-  font-family: Cormorant Garamond;
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
-
-.main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.header {
-  margin: 60px 180px;
-  padding-top: 70px;
-  border: 5px solid #FF9094;
-  background: #FFF;
-}
-
-.header__title {
-  color: #000;
-  text-align: center;
-  font-family: Tangerine;
-  font-size: 150px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-}
-
-.header__text {
-  max-width: 500px;
-  padding-bottom: 52px;
-  color: #000;
-  text-align: center;
-  font-family: Cormorant Garamond;
-  font-size: 50px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
-
-.header .content__img {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
 /* Стили для среднего телефона */
 @media (max-width: 1024px) {
 
